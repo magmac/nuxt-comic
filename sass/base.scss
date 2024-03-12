@@ -1,0 +1,55 @@
+$maxWidth: 30rem;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body,
+.fixed {
+    margin: 0 auto;
+    font-family: Script, Microsoft YaHei, sans-serif;
+    font-size: 15px;
+    color: #333;
+    max-width: $maxWidth;
+}
+
+.fixed {
+    position: fixed !important;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+body {
+    position: relative;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+button {
+    border: 0 none;
+}
+
+.icon {
+    height: 1em;
+}
+
+.el-form {
+    margin-left: 1.5rem;
+}
